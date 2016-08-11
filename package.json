@@ -1,0 +1,15 @@
+{
+  "name": "url-basic",
+  "version": "1.0.0",
+  "description": "interpret the basic program in the url",
+  "author": "ABA",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "webpack-livereload-plugin": "^0.8.1"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
+}
