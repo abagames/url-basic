@@ -216,6 +216,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            break;
 	        case CommandType.cls:
 	            screen = '';
+	            cursorPos = 0;
 	            break;
 	        case CommandType.delay:
 	            delayCount = cmd.args.length > 0 ? execExpression(cmd.args[0]) : 1;
